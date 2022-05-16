@@ -5,6 +5,11 @@ import matplotlib.pyplot as plt
 
 
 def computer_fight():
+    """
+    A script that plots the bots' tournament
+    :return: None
+    """
+
     game_result_list = []
     game_round = 0
     for _ in range(2000):

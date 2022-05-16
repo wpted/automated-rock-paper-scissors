@@ -7,7 +7,11 @@ class RockPaperScissors:
         self.player2 = Player()
         self.draws = 0
 
-    def count_wins(self):
+    def count_wins(self) -> None:
+        """
+        Count the wins of the two players.
+        :return: None
+        """
         player1_result = self.player1.choose()
         player2_result = self.player2.choose()
 

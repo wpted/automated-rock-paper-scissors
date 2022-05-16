@@ -7,5 +7,5 @@ class Player:
         self.wins = 0
         self.loses = 0
 
-    def choose(self):
+    def choose(self) -> str:
         return choice(self.decision_list)
